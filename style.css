@@ -1,0 +1,213 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+}
+
+.img1,
+.img2,
+.img3,
+.img4 {
+    position: relative;
+    opacity: 80%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img1 {
+    background-image: url("https://images.pexels.com/photos/705675/pexels-photo-705675.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    height: 100vh;
+    background-size: cover;
+}
+
+.img2 {
+    background-image: url("https://www.apple.com/v/macbook-pro-14-and-16/b/images/meta/macbook-pro-14-and-16_overview__fz0lron5xyuu_og.png");
+    min-height: 500px;
+    background-size: cover;
+}
+
+.img3 {
+    background-image: url("https://rog.asus.com/media/1546852826561.jpg");
+    min-height: 500px;
+    background-size: cover;
+}
+
+.img4 {
+    background-image: url("https://images.firstpost.com/wp-content/uploads/2020/05/Dell-Inspiron-15-3.jpg");
+    min-height: 500px;
+}
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+    background-color: #f8f9fa;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.text .border {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 90%;
+}
+
+.text .border.trans {
+    background-color: transparent;
+    font-size: larger;
+}
+
+@media(max-width:568px) {
+
+    .img1,
+    .img2,
+    .img3 {
+        background-attachment: scroll;
+    }
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+.inside{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+.a1{
+    margin-left: 25px;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.topnav a.active {
+    background-color: #ffffff;
+    color: rgb(66, 66, 66);
+}
+
+.bg {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+button img {
+    height: 150px;
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-width: 0px;
+}
+
+button {
+    border-width: 0px;
+}
+
+button:hover {
+    box-shadow: 0px 5px 30px 0.01px black;
+    transition: 100ms;
+}
+
+.imgb1 {
+    background-image: url("https://www.freepnglogos.com/uploads/apple-logo-png/apple-logo-png-antivirus-software-policy-library-and-information-34.png");
+    height: 150px;
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.imgb2 {
+    background-image: url("https://www.freepnglogos.com/uploads/logo-asus-png/republic-of-gamers-asus-logo-png-21.png");
+    height: 150px;
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.imgb3 {
+    background-image: url("https://www.freepnglogos.com/uploads/dell-png-logo/company-dell-png-logo-1.png");
+    height: 150px;
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.imgb4 {
+    background-image: url("https://www.freepnglogos.com/uploads/image-microsoft-logo--5.png");
+    height: 150px;
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.imgb1,
+.imgb2,
+.imgb3,
+.imgb4 {
+    margin: auto;
+}
+
+.apple-products,
+.rog-products,
+.dell-products {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.para {
+    margin: 50px;
+}
+
+.last {
+    text-align: center;
+    padding: 50px;
+    background-color: #f8f9fa;
+}
